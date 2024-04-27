@@ -1,0 +1,177 @@
+.nav-right {
+    width:100%;
+    text-align: right;
+    
+}
+
+.nav-right a {
+    color: seashell;
+    margin-left: 12px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+   
+}
+.main {
+    padding-top: 69px;
+    margin: 0;
+}
+
+.header {
+    z-index: 99;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top:0;
+    background-color: black;
+    width: 100%
+}
+
+.nav-content {
+    display: flex;
+    width: 100%
+}
+
+.logo {
+    padding-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-right {
+    padding-right: 100px;
+    width: 100%;
+    justify-content: end; 
+}
+
+.nav-right li {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner-img {
+    /* position: absolute;
+    margin: auto;
+    width: 1200px;
+    height: 700px;
+    align-items:center; */
+    width: 1200px;
+    height: 700px;
+    overflow: hidden;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.banner-text {
+    position: absolute;
+    top: 40%;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.totm {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.totm-title {
+    text-align: center;
+}
+
+.menu {
+    max-width: 1000px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-left: 15%;
+    padding-right: 15%; */
+}
+
+.item {
+    padding: 10px;
+}
+
+.item img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.item h4 {
+    text-align: center;
+}
+
+.locs-section {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.locs-img {
+    width: 1200px;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.locs-text {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.spots-container {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.spots {
+    background-color: black;
+    opacity: 1;
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+    align-content: center; 
+    justify-content: space-between;
+}
+
+.spot-info {
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.contact {
+    height: 200px;
+    text-align: center;
+}
+
+.copyright {
+    margin-left: 20px;
+    text-align: left;
+}
